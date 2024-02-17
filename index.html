@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/variables.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <title>Gerador de conselhos</title>
+</head>
+
+<body>
+
+    <main class="card">
+        <div class="card-principal">
+            <h2 class="advice-titulo">advice #117</h2>
+            <p class="advice-paragrafo">"It is easy to sit up and take <br> notice, what's difficult is getting <br> up and taking action."</p>
+
+            <picture >
+                <source  srcset="image/pattern-divider-mobile.svg" media="(max-width: 768px)">
+                <img src="./image/pattern-divider-desktop.svg" alt="Pattern divider" >
+            </picture>
+
+
+            <button class="advice-update" onclick="clicar()"">
+                <img src="./image/icon-dice.svg" alt="Dice icon">
+            </button>
+        </div>
+    </main>
+
+    <script src="script/index.js"></script>
+
+</body>
+
+</html>
